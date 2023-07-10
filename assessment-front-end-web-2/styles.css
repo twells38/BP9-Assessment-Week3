@@ -1,0 +1,119 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 550px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+	margin-top: 6px;
+}
+
+img {
+	max-width: 300px;
+}
+.check{
+	display: inline-block;
+}
+.profile-img{
+	margin-top: 30px;
+	max-width: 150px;
+	
+	border-radius: 50%;
+}
+.profile{
+	display: flex;
+	
+}
+.profile h1{
+	font-size: 20px;
+	color: rgb(75, 73, 73);
+}
+.container-detail{
+	margin-left: 20px;
+	margin-top: 30px;
+	width: 100%;
+	line-height: 1.4rem;
+}
+.container-skills{
+	position: relative;
+	top: -50px;
+}
+.container-skills h3{
+	color: rgb(136, 136, 241);
+}
+.btn{
+	margin-top: 20px;
+}
+.btn-button{
+	background-color: rgb(239, 239, 136);
+	font-size: 12px;
+	width: 150px;
+	height: 30px;
+	margin: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	box-shadow: 2px 2px grey;
+}
+.btn-button:hover{
+	background-color: grey;
+	color: white;
+	transition: all .7s ease;
+}
+
+.neighborhood-img{
+	display: block;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.neighborhood h1{
+	text-align: center;
+}
+
+.neighborhood-detail{
+	color: rgb(107, 104, 104);
+	letter-spacing: 1.2px;
+}
+.restaurants-list a{
+	text-decoration: none;
+	color: rgb(107, 104, 104);
+	line-height: 25px;
+}
+.list-random{
+	width: 120px;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(50, 49, 49);
+	font-size: 13px;
+}
